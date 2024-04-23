@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fef6e4;
+}
+
+.container {
+    max-width: 100%;
+    width: 300px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #8bd3dd;
+    padding: 3em 1.5em;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, .5);
+    border-radius: 10px;
+}
+
+.container h2 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container .notice {
+    font-size: 15px;
+    color: rgba(96, 96, 96, .7);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.container input {
+    width: 100%;
+    padding: 10px 8px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #f582ae;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.container .msg {
+    float: right;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
